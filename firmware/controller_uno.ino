@@ -102,7 +102,7 @@ void loop() {
  // sends a signal to the car where the joysticks want it to go
  if (command & COMMAND_LEFT) {
    mySerial.write('l');
- ] else if (command & COMMAND_RIGHT) {
+ } else if (command & COMMAND_RIGHT) {
    mySerial.write('r');
  }
  if (command & COMMAND_UP) {
